@@ -1,0 +1,66 @@
+wind_intensity: #  Controls the strenght of the wind with values from 0, no wind at all, to 100, a strong wind. 
+                # The wind does affect rain direction and leaves from trees, so this value is restricted to avoid animation issues.
+  min: 0
+  max: 80
+  mean: 50
+precipitation: # Rain intensity values range from 0 to 100, being 0 none at all and 100 a heavy rain.
+  min: 0
+  max: 80
+  mean: 50
+precipitation_deposits: # Determines the creation of puddles. Values range from 0 to 100, being 0 none at all and 100 \
+                        # a road completely capped with water. Puddles are created with static noise, meaning that they will always appear at the same locations.
+  min: 0
+  max: 80
+  mean: 50
+wetness: # Wetness intensity. It only affects the RGB camera sensor. Values range from 0 to 100.
+  min: 0
+  max: 80
+  mean: 50
+cloudiness: # Values range from 0 to 100, being 0 a clear sky and 100 one completely covered with clouds.
+  min: 0
+  max: 55
+  mean: 50
+fog_density: # Fog concentration or thickness. It only affects the RGB camera sensor. Values range from 0 to 100.
+  min: 0
+  max: 0
+  mean: 50
+fog_distance: # Fog start distance. Values range from 0 to infinite.
+  min: 0
+  max: 5
+  mean: 50
+fog_falloff: #  Density of the fog (as in specific mass) from 0 to infinity. The bigger the value, the more dense and heavy
+             # it will be, and the fog will reach smaller heights. Corresponds to Fog Height Falloff in the UE docs.
+             # If the value is 0, the fog will be lighter than air, and will cover the whole scene.
+             # A value of 1 is approximately as dense as the air, and reaches normal-sized buildings.
+             # For values greater than 5, the air will be so dense that it will be compressed on ground level.
+  min: 0
+  max: 3
+  mean: 2
+scattering_intensity: # Controls how much the light will contribute to volumetric fog. When set to 0, there is no contribution.
+  min: 1
+  max: 1
+  mean: 50
+mie_scattering_scale: # Controls interaction of light with large particles like pollen or air pollution resulting in a
+                      # hazy sky with halos around the light sources. When set to 0, there is no contribution.
+  min: 0.03
+  max: 0.03
+  mean: 50
+rayleigh_scattering_scale: # Controls interaction of light with small particles like air molecules.
+                          # Dependent on light wavelength, resulting in a blue sky in the day or red sky in the evening.
+  min: 0.03
+  max: 0.03
+  mean: 50
+dust_storm: # Determines the strength of the dust storm weather. Values range from 0 to 100.
+  min: 0
+  max: 80
+  mean: 50
+sun_azimuth_angle: # The azimuth angle of the sun. Values range from 0 to 360. Zero is an origin point in a sphere determined by Unreal Engine.
+  min: 0
+  max: 360
+  mean: 180
+sun_altitude_angle: # Altitude angle of the sun. Values range from -90 to 90 corresponding to midnight and midday each.
+  min: 0
+  max: 90
+  mean: 45
+nvehicles: 100 # Number of npc cars
+npeople: 200 # Number of npc pedestrians
