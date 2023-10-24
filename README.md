@@ -3,3 +3,7 @@ Start Server: `docker run --rm --gpus all --net=host -v /tmp/.X11-unix:/tmp/.X11
 
 
 Start Client: `python CarlaEnv/main.py`
+
+
+TODO: 
+1. Clean codebase
