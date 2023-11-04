@@ -1,9 +1,12 @@
 # Schoomatic
-Start Server: `docker run --rm --gpus all --net=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw klekkala/carla_schoomatic /bin/bash /LinuxNoEditor/CarlaUE4.sh -RenderOffScreen`
 
+Welcome to Schoomatic - a comprehensive codebase tailored for robotic visual navigation research. Dive into the directories to explore various tools and resources designed to accelerate your work in this exciting field.
 
-Start Client: `python CarlaEnv/main.py`
+<p align='center'>
+    <img src="/Schoomatic/schoomatic.png" alt="drawing" width="400"/> 
+</p>
 
-
-TODO: 
-1. Clean codebase
+<p align='center'>
+    <img src="/FPV_BEV/Town/Town10HD_000062.jpg" alt="drawing" width="200"/>
+    <img src="/FPV_BEV/Town/Town10HD_bev_000062.jpg" alt="drawing" width="200"/>
+</p>
