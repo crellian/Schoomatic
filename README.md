@@ -1,6 +1,6 @@
 # Schoomatic
 
-Welcome to Schoomatic - a simulator tailored for robot visual navigation research. Dive into the codebases to explore various tools and resources designed to accelerate your work in this exciting field.
+Welcome to Schoomatic - a simulator tailored for robot navigation research. Dive into the codebases to explore various tools and resources designed to accelerate your work in this exciting field.
 
 <p align='center'>
     <img src="/Schoomatic/schoomatic.png" alt="drawing" width="400"/> 
